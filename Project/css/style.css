@@ -1,0 +1,97 @@
+/*general*/
+/*https://fonts.google.com/*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+h1,h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+p{
+	font-size: 16px;
+	line-height: 2;
+}
+
+/*utilitites*/
+.container{
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*header*/
+.site-header{
+	height: 300px;
+	background-image: url(../img/background-header.jpg);
+	background-position: center center;
+	background-size:cover;
+	padding: 20px;
+	/*background-color: black;*/
+}
+.site-header h1{
+	color: white;
+}
+.site-header p{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+.header-photo{
+	display: block;
+	width:150px;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+	border-radius: 50%;
+	border: 8px solid #fafafa;
+	padding: 5px;
+}
+.header-info{
+	display: flex;
+	justify-content: space-between;
+}
+/*menu*/
+.menu{
+	background-color: rgb(196, 78, 0);
+	text-align: center;
+	padding: 10px;
+}
+.menu a{
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	margin-right: 50px;
+}
+main{
+	background-color: #dedede;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 50px;
+	border-radius: 10px;
+}
+
+/*footer*/
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 80px;	
+}
+.footer-site{
+	position:absolute;
+	bottom: 0;
+	width: 100%
+}
+.description-underline {
+    font-weight: normal;
+    text-decoration: underline;
+}
+ul{
+	margin:30px;
+	margin-top:8px;
+}

@@ -1,0 +1,33 @@
+/*form*/
+input{
+	display: block;
+	font-size: 18px;
+	border:none;
+	background-color:#f1f1f1;
+	padding:.5rem;
+	border-radius:10px;
+	width:80%;
+}
+input[type="submit"]{
+	background-color: rgb(199 83 6 / 69%);
+	margin-top:2rem;
+	width:5rem;
+	border:1px solid rgb(199 83 6);
+	border-radius: 5px;
+	cursor: pointer;
+}
+.display-text{
+	display: block;
+	padding: 50px 50px;
+}
+.box-message{
+	height: 150px;
+}
+.form-element{
+	padding:5px;
+}
+span{
+    width: 80%;
+    margin-right: 50px;
+    margin-left: auto;
+}
